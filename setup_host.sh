@@ -60,7 +60,8 @@ fi
 
 echo "[SETUP] Installing Python dependencies..."
 pip3 install --upgrade pip
-pip3 install --ignore-installed optimum[openvino] \
+pip3 install --ignore-installed optimum-intel[openvino] \
+    optimum \
     openvino \
     openvino-genai \
     transformers \
